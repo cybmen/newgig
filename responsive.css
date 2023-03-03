@@ -1,0 +1,205 @@
+
+@media screen and (max-width: 1600px) {
+  
+
+    .page {
+        display: flex;
+        overflow: hidden;
+    }
+    
+    .background-color {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .chat {
+        max-width: 100%;
+    }
+    .background-color {
+        max-width: 100%;
+    }
+    .background-image {
+        max-width: 100%;
+    }
+
+    .main h1 {
+        font-size: 30px;
+    }
+
+    .get-idea-box {
+        position: absolute;
+        width: 500px;
+        height: 100px;
+        left: -122px;
+        top: 300px;
+    }
+
+    .get-idea-text {
+        width: 255px;
+    }
+
+    .menu{
+        margin-top: 180px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 1480px) {
+
+    .page {
+        display: flex;
+        overflow: scroll;
+    }
+    
+    .main {
+        display: none;
+    }
+    .background-color {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .chat {
+        max-width: 100%;
+    }
+    .background-color {
+        max-width: 100%;
+        background: #fff;
+    }
+    .background-image {
+        width: 100%;
+        background-image: none;
+    }
+    
+.profile {
+    margin: 60px;
+}
+
+.profile-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.bot-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+
+.chat-detail-user,
+.chat-detail-bot {
+    margin: 20px 0px;
+}
+
+.chat-detail-user-background {
+    width: auto;
+    height: auto;
+    padding: 20px 10px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    max-width: 70%;
+}
+
+.chat-detail-user-text {
+    margin: 0px 10px;
+}
+
+.chat-detail-bot-text {
+    margin: 0px 10px;
+}
+
+.chat-detail-bot-background {
+    width: auto;
+    height: auto;
+    padding: 20px 10px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    max-width: 70%;
+}
+
+
+.chat-detail-final {
+    background-color: #E2ECE9;
+    width: auto;
+    height: auto;
+    padding: 20px 10px;
+    margin: 0px 20px;
+    border-radius: 20px;
+    max-width: 70%;
+}
+
+.with-image {
+    padding: 0px;
+}
+.with-image img {
+    width: 100%;
+}
+
+.with-image h3 {
+    margin: 10px;
+}
+
+.with-image p {
+    margin: 10px;
+}
+
+.price {
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.price a {
+    font-size: 14px;
+    margin: 0px;
+    text-align: center;    
+    max-height: 40px;
+    min-width: 120px;
+}
+
+.price p {
+    font-size: 14px;
+    margin: 10px 10px
+}
+
+.textarea {
+    position: relative;
+}
+.textarea input {
+    width: 90%;
+    height: 60px;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+.textarea a {
+    padding: 10px;
+    position: fixed;
+    bottom: 58px;
+    right: 40px;
+
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .price a {
+        margin: 0px;
+        height: 60px;
+    }
+    
+    .price {
+        justify-content: space-between;
+        height: 40px;
+    }
+    
+}
