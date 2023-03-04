@@ -139,6 +139,7 @@ margin-bottom: 0;
     margin: 50px auto auto auto;
     width: 1122px;
     height: auto;
+    min-height: 94vh;
     right: 120px;
     
 }
